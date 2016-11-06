@@ -3,6 +3,13 @@ For YouTube video uploaders, the Videos page features a menu for each video that
 
 This little JavaScript file can work in a Chrome (or FireFox, presumably) extension and tell you, without opening the annotations view, whether you have already annotated a video. It provides a count of annotations that have links, or a count of end screen objects, in the menu itself.
 
+# Installation
+## Chrome
+I use [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija), and added this script for all of `https://www.youtube.com`. If you use this, you do not need to include jQuery, as YouTube already includes it.
+
+## Other
+I don't know! Something that lets you execute arbitrary JavaScript on webpages with a specific domain.
+
 # Examples
 !["Annotations (5)"](http://i.imgur.com/SJB4tCm.png)
 !["End Screen Links (3)"](http://i.imgur.com/xWrdQXC.png)
