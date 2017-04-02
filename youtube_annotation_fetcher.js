@@ -37,7 +37,7 @@
 							url: endScreenUrl,
 							dataType: "text",
 							success: function(data) {
-								var count = (data.match(/callToAction/g) || []).length;
+								var count = (data.match(/"callToAction"/g) || []).length;
 								$annotation.text("End Screen Links (" + count + ")");
 							},
 						});
