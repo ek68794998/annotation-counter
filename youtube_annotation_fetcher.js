@@ -30,7 +30,7 @@
 				url: endScreenUrl,
 				dataType: "text",
 				success: function(data) {
-					var count = (data.match(/"callToAction"/g) || []).length;
+					var count = JSON.parse(data).for_editor.elements.length;
 					$annotationsButton.text("End Screen Links (" + count + ")");
 				},
 				statusCode: {
